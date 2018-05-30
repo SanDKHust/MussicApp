@@ -15,12 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EditText editText = findViewById(R.id.edt);
+        
+        // test create new branch
 
-<<<<<<< HEAD
-=======
-        //$ git revert HEAD~1..HEAD | undo commit + push rồi
-
->>>>>>> parent of 2cd91ea... test undo commit + push
         final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setTitle("Thoat khoi chuong trinh");
         alertDialogBuilder.setMessage("Ban co thu");

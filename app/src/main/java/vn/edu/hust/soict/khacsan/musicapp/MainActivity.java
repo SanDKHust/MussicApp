@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         
         // test create new branch
         //change master push to developer
+
+
         final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setTitle("Thoat khoi chuong trinh");
         alertDialogBuilder.setMessage("Ban co thu");
@@ -32,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         alertDialogBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(MainActivity.this,"You clicked over No",Toast.LENGTH_SHORT).show();
+                //edit edit
             }
         });
         alertDialogBuilder.setNeutralButton("Cancel", new DialogInterface.OnClickListener() {

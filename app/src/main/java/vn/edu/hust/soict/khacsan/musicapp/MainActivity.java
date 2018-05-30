@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         EditText editText = findViewById(R.id.edt);
 
-        //$ git revert HEAD~1..HEAD | undo commit + push rồi
+        // test undo commit + push
 
         final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setTitle("Thoat khoi chuong trinh");

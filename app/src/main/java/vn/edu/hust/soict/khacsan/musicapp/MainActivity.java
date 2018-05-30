@@ -15,9 +15,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EditText editText = findViewById(R.id.edt);
-
+        
         // test create new branch
 
+<<<<<<< HEAD
+        // test create new branch
+
+=======
+>>>>>>> c2a13165194e239406f8a2678414c22218f89ff0
         final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setTitle("Thoat khoi chuong trinh");
         alertDialogBuilder.setMessage("Ban co thu");

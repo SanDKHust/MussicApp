@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.edt);
         
         // test create new branch
-        
+        //change master push to developer
         final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setTitle("Thoat khoi chuong trinh");
         alertDialogBuilder.setMessage("Ban co thu");
